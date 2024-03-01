@@ -1,0 +1,27 @@
+/**
+\mainpage SMASH Development Documentation
+
+This development documentation details all classes and functions used in SMASH.
+For a quick overview on how to get started, see the <a href=../user/index.html> user guide </a>.
+
+\par Important entry points
+- [Contributing](CONTRIBUTING.md)
+- \ref smash::Experiment
+- \ref smash::Configuration
+
+\par Configuration options
+- \ref doxypage_input
+
+\par Unit Testing
+- \ref doxypage_unit_testing
+
+*/
+
+// define all the groups/modules
+/// \defgroup unittest Unit Test Macros and Functions
+/// \defgroup output Output Classes
+/// \defgroup modus Experiment Modi Classes
+/// \defgroup action Action Classes
+/// \defgroup data Abstractions for data (particles, branches)
+/// \defgroup exception Exception Classes
+/// \defgroup logging Logging Classes and Functions
